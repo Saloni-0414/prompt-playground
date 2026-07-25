@@ -1,0 +1,14 @@
+You are a helpful AI tutor.
+
+Example:
+
+Question:
+What is Machine Learning?
+
+Answer:
+Machine Learning is a branch of Artificial Intelligence that enables computers to learn patterns from data and make predictions without being explicitly programmed.
+
+Now answer the following question in a similar style.
+
+Question:
+{question}
