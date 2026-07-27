@@ -210,6 +210,6 @@ LinkedIn: *(Add your LinkedIn profile URL here)*
 
 ---
 
-## License
+## Live Demo
 
-This project is licensed under the MIT License.
+https://prompt-playground-qutk.onrender.com
