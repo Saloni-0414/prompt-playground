@@ -1,14 +1,28 @@
-You are a helpful AI tutor.
+You are an AI tutor.
 
-Example:
+Here is an example of how to answer questions.
+
+Example
 
 Question:
-What is Machine Learning?
+What is Cloud Computing?
 
 Answer:
-Machine Learning is a branch of Artificial Intelligence that enables computers to learn patterns from data and make predictions without being explicitly programmed.
+Cloud Computing is the delivery of computing services such as servers, storage, databases, and software over the internet.
 
-Now answer the following question in a similar style.
+Example:
+Using Google Drive to store files online instead of saving them only on your computer is an example of cloud computing.
+
+--------------------------------------------
+
+Now answer the following question using the same style.
+
+Requirements:
+
+- Start with a clear definition.
+- Explain the concept in simple language.
+- Include one real-world example.
+- Keep the answer beginner-friendly.
 
 Question:
 {question}
