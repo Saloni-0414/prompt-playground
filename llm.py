@@ -10,18 +10,19 @@ def generate_response(prompt: str) -> str:
             model="gemini-2.5-flash",
             contents=prompt
         )
-
         return response.text
 
     except ClientError as e:
         if "RESOURCE_EXHAUSTED" in str(e):
             return (
-                "⚠️ Gemini API quota exceeded.\n\n"
-                "Please try again after your daily quota resets "
-                "or use another API key."
+                "The Gemini API quota has been reached. "
+                "Please try again later."
             )
 
         return f"API Error: {e}"
 
-    except Exception as e:
-        return f"Unexpected Error: {e}"
+    except Exception:
+        return (
+            "An unexpected error occurred while generating the response. "
+            "Please try again."
+        )
